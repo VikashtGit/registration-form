@@ -1,9 +1,11 @@
 import './App.css';
+import {Basic} from './components/FormDetails';
 
 function App() {
   return (
-    <div className="App">
-     <h1>Registration form created by Vikash Tiwari</h1>
+    <div>
+     <h1 className="App">Registration form created by Vikash Tiwari</h1>
+     <Basic/>
     </div>
   );
 }
