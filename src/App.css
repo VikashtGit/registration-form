@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.requiredField::after {
+  content: "*";
+  color: red;
+  padding-bottom: 14px;
+
+}
+
 
 
 
